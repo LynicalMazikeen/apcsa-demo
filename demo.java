@@ -10,10 +10,10 @@ public class demo
         
         int humanYears = input.nextInt();
 
-        System.out.println(humanYears + " human years is " + calculateDogYears() + " dog years!");
+        System.out.println(humanYears + " human years is " + calculateDogYears(humanYears) + " dog years!");
     }
 
-    public static void calculateDogYears(){
+    public static int calculateDogYears(int humanYears){
         return humanYears * 7;
     }
 }
